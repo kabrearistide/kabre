@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kabre Aristide</title>
+    <!-- Liens vers les icônes Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <!-- En-tête du portfolio -->
+    <header>
+        <h1>KABRE Aristide</h1>
+        <p>Etudiant en 1<sup>ère</sup> année de Technologie du Génie Logiciel</p>
+    </header>
+    
+    <!-- Navigation principale -->
+    <nav>
+        <div class="nav-container">
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À Propos</a>
+            <a href="#projets">Projets</a>
+            <a href="#competences">Compétences</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    
+    <!-- Contenu principal -->
+    <div class="container">
+        <!-- Section Accueil -->
+        <section id="accueil">
+            <img src="IMG.jpg" alt="Photo de profil">
+            <h2>Bienvenue sur mon portfolio</h2>
+            <p>Je suis un étudiant passionné par la Technologie du Génie Logiciel et du développement web. Explorez mon travail et découvrez ce que je peux apporter à votre projet.</p>
+        </section>
+        
+        <!-- Section À Propos -->
+        <section id="apropos">
+            <h2>À Propos de Moi</h2>
+            <p>Je me nomme KABRE Aristide, étudiant en première année de Technologie du Génie Logiciel à l'Université Aube Nouvelle de Bobo-Dioulasso. Animé d'un vif intérêt pour l'univers de l'informatique, je m'emploie avec rigueur à l'acquisition des savoirs fondamentaux relatifs à la programmation, à la conception algorithmique ainsi qu'au développement de solutions logicielles innovantes.</p>
+        </section>
+        
+        <!-- Section Projets -->
+        <section id="projets">
+            <h2>Mes Réalisations</h2>
+            <div class="projets-grid">
+                <div class="projet-card">
+                    <div class="projet-img" style="background-image: url('ap.png');"></div>
+                    <div class="projet-info">
+                        <h3>Application de gestion des VDP</h3>
+                        <p>Une application basique en langage C</p>
+                    </div>
+                </div>
+                
+                <div class="projet-card">
+                    <div class="projet-img" style="background-image: url('portfolio.png');"></div>
+                    <div class="projet-info">
+                        <h3>Ce portfolio</h3>
+                        <p>Site web statique et responsive qui montre mes compétences, expériences et mes projets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section Compétences -->
+        <section id="competences">
+            <h2>Mes Compétences</h2>
+            <div class="competence">
+                <h3>HTML</h3>
+                <div class="barre-competence">
+                    <div class="niveau" style="width: 75%;"></div>
+                </div>
+            </div>
+            
+            <div class="competence">
+                <h3>CSS</h3>
+                <div class="barre-competence">
+                    <div class="niveau" style="width: 70%;"></div>
+                </div>
+            </div>
+            
+            <div class="competence">
+                <h3>Les Bases du langage C</h3>
+                <div class="barre-competence">
+                    <div class="niveau" style="width: 65%;"></div>
+                </div>
+            </div>
+            
+            <div class="competence">
+                <h3>Bonne Maîtrise des logiciels de Bureautique</h3>
+                <div class="barre-competence">
+                    <div class="niveau" style="width: 70%;"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Envoyer</button>
+                
+                <div id="successMessage" class="success-message">
+                    Merci pour votre message! Je vous répondrai dès que possible.
+                </div>
+            </form>
+            
+            <div class="contact-info">
+                <p>Ou contactez-moi directement :</p>
+                <p>Email: <a href="mailto:aristidek952@gmail.com">aristidek952@gmail.com</a></p>
+                <p>Téléphone: +226 06 43 97 59</p>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Pied de page -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ton-profil" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/ton-profil" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://twitter.com/ton-profil" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="https://facebook.com/ton-profil" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+        <p>&copy; 2025 Kabré Aristide. Tous droits réservés.</p>
+    </footer>
+
+
+</body>
+</html>
